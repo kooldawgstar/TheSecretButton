@@ -1,0 +1,50 @@
+<html>
+    <title>The Secret Button</title>
+    
+    <center><h1>Click the button below to go to a random wikipedia page!</h1>
+    
+    <button onclick="randomLink();">Click here to go somewhere else!</button>
+    
+    <h2>Send any feedback to info.thesecretbutton@gmail.com</h2>
+    <script type="text/javascript">
+
+    var randomLink = function () {
+
+        // Array of links
+        var links = [
+            "en.wikipedia.org/wiki/Taifa_of_Guadix_and_Baza",
+            "en.wikipedia.org/wiki/Keisung_High_School",
+            "en.wikipedia.org/wiki/Matt_Lenski",
+            "en.wikipedia.org/wiki/Whitewater,_Colorado",
+            "en.wikipedia.org/wiki/Chester_Pitts",
+            "en.wikipedia.org/wiki/George_Swartz",
+            "en.wikipedia.org/wiki/Cheleh_Gah,_Chaharmahal_and_Bakhtiari",
+            "en.wikipedia.org/wiki/Football_in_Azerbaijan",
+            "en.wikipedia.org/wiki/David_Smerdon",
+            "en.wikipedia.org/wiki/List_of_Old_Norvicensians",
+            "en.wikipedia.org/wiki/Chris_McDonald_(footballer)",
+        ];
+
+        // Maximum random number size
+        // by counting the number of links in the array
+        var max = (links.length)
+
+        // Generate a random number
+        var randomNumber = Math.floor(Math.random()*max);
+
+        // use that random number to retrieve a link from the array
+        var link = links[randomNumber];
+
+        // change the location of the window object
+        window.location = "http://" + link;
+    }
+    </script> 
+      
+    </center>
+    
+<style>
+body {background-color:lightblue}
+h1   {color:black}
+p    {color:green}
+</style>
+</html>
