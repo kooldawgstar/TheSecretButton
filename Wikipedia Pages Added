@@ -1,0 +1,14 @@
+// Array of links
+        var links = [
+            "en.wikipedia.org/wiki/Taifa_of_Guadix_and_Baza",
+            "en.wikipedia.org/wiki/Keisung_High_School",
+            "en.wikipedia.org/wiki/Matt_Lenski",
+            "en.wikipedia.org/wiki/Whitewater,_Colorado",
+            "en.wikipedia.org/wiki/Chester_Pitts",
+            "en.wikipedia.org/wiki/George_Swartz",
+            "en.wikipedia.org/wiki/Cheleh_Gah,_Chaharmahal_and_Bakhtiari",
+            "en.wikipedia.org/wiki/Football_in_Azerbaijan",
+            "en.wikipedia.org/wiki/David_Smerdon",
+            "en.wikipedia.org/wiki/List_of_Old_Norvicensians",
+            "en.wikipedia.org/wiki/Chris_McDonald_(footballer)",
+        ];
