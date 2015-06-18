@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<center>
+<h1>Welcome to The Secret Button Images</h1>
+
+<form method="get" action="http://thesecretbutton.neocities.org"><button type="submit">Go Back To Homepage</button></form> 
+
+
+<body>
+
+<br>
+
+<br>
+
+<br>
+
+<input class="randombutton" type="button" value="Randomize Animal" onclick="randomImg1()"/>
+
+<script type="text/javascript">
+    function randomImg1() {
+
+
+      myImages1 = new Array();
+      myImages1[0] = "/images/a.jpg";
+      myImages1[1] = "/images/b.jpg";
+      myImages1[2] = "/images/c.jpg";
+      myImages1[3] = "/images/d.jpg";
+      myImages1[4] = "/images/e.jpg";
+      myImages1[5] = "/images/f.jpg";
+      myImages1[6] = "/images/g.jpg";
+      myImages1[7] = "/images/h.jpg";
+      myImages1[8] = "/images/i.jpg";
+      myImages1[9] = "/images/j.jpg";
+      myImages1[10] = "/images/k.jpg";
+      myImages1[11] = "/images/l.jpg";
+      myImages1[12] = "/images/m.jpg";
+      myImages1[13] = "/images/n.jpg";
+      myImages1[14] = "/images/o.jpg";
+      myImages1[15] = "/images/p.jpg";
+      myImages1[16] = "/images/q.jpg";
+      myImages1[17] = "/images/r.jpg";
+      myImages1[18] = "/images/s.jpg";
+      myImages1[19] = "/images/t.jpg";
+      myImages1[20] = "/images/u.jpg";
+      myImages1[21] = "/images/v.jpg";
+      myImages1[22] = "/images/w.jpg";
+      myImages1[23] = "/images/x.jpg";
+      myImages1[24] = "/images/y.jpg";
+      myImages1[25] = "/images/z.jpg";
+      
+
+      var rnd = Math.floor( Math.random() * myImages1.length ); //incorporated other solution
+
+      document.getElementById("image").innerHTML = "<img src='" + myImages1[rnd] + "' alt='image'></img>";
+    }
+    
+</script>
+<div id="image"></div>
+
+</body>
+
+    <style>
+        body {background-color:lightblue}
+        h1   {color:black}
+        p    {color:black}
+    </style>
+
+</center>
+</html>
