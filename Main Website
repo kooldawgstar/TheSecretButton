@@ -5,7 +5,17 @@
     
     <button onclick="randomLink();">The Secret Button</button>
     
+    <h2>Click below to go to a random animal image generator</h2>
+    
+    <form method="get" action="http://thesecretimages.neocities.org"><button type="submit">Click Here to see a random image</button></form> 
+    
+    
+    
+    
     <h2>Send any feedback to info.thesecretbutton@gmail.com</h2>
+    
+
+    
     <script type="text/javascript">
 
     var randomLink = function () {
@@ -29,6 +39,7 @@
         // change the location of the window object
         window.location = "http://" + link;
     }
+   
     </script> 
       
     </center>
