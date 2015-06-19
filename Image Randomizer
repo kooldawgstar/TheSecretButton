@@ -48,15 +48,30 @@
       myImages1[23] = "/images/x.jpg";
       myImages1[24] = "/images/y.jpg";
       myImages1[25] = "/images/z.jpg";
+      myImages1[26] = "/images/1.jpg";
+      myImages1[27] = "/images/2.jpg";
+      myImages1[28] = "/images/3.jpg";
+      myImages1[29] = "/images/4.jpg";
+      myImages1[30] = "/images/5.jpg";
+      myImages1[31] = "/images/6.jpg";
+      myImages1[32] = "/images/7.jpg";
+      myImages1[33] = "/images/8.jpg";
+      myImages1[34] = "/images/9.jpg";
+      myImages1[35] = "/images/10.jpg";
+
       
 
       var rnd = Math.floor( Math.random() * myImages1.length ); //incorporated other solution
 
-      document.getElementById("image").innerHTML = "<img src='" + myImages1[rnd] + "' alt='image'></img>";
+      document.getElementById("image").innerHTML = "<img src='" + myImages1[rnd] + "' alt='Image'></img>";
     }
     
 </script>
 <div id="image"></div>
+
+<h4><a href="https://github.com/kooldawgstar/TheSecretButton">View our source code on github and feel free to fork it</a></h4>
+
+
 
 </body>
 
